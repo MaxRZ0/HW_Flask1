@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Гланая страница
+{% endblock %}
+
+{% block nav %}
+<li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Главня</a></li>
+<li class="nav-item"><a href="jackets" class="nav-link">Куртки</a></li>
+<li class="nav-item"><a href="pants" class="nav-link">Штаны</a></li>
+<li class="nav-item"><a href="shoes" class="nav-link">Обувь</a></li>
+{% endblock %}
+
+{% block content %}
+<h1 class="text-center">
+    Здравствуйте!
+</h1>
+<h2 class="text-center">
+    Спасибо, что посетили мой минисайт! Надеюсь он Вам понравиться.
+</h2>
+<h5 class="text-center">
+    Этот минисайт сделан в качестве домашней работы <a href="https://www.gb.ru">GeekBrains</a>, по курсу Flask.
+</h5>
+{% endblock %}
+
+{% block footer %}
+<li class="nav-item"><a href="/" class="nav-link px-2 text-white">Главная</a></li>
+<li class="nav-item"><a href="about" class="nav-link px-2 text-white">О нас</a></li>
+<li class="nav-item"><a href="contacts" class="nav-link px-2 text-white">Контакты</a></li>
+{% endblock %}

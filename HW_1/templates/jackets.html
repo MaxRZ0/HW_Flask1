@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Куртки
+{% endblock %}
+
+{% block nav %}
+<li class="nav-item"><a href="/" class="nav-link">Главня</a></li>
+<li class="nav-item"><a href="jackets" class="nav-link active" aria-current="page">Куртки</a></li>
+<li class="nav-item"><a href="pants" class="nav-link">Штаны</a></li>
+<li class="nav-item"><a href="shoes" class="nav-link">Обувь</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="album py-5">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                 role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image xlink:href="https://b-present.ru/wa-data/public/shop/products/63/30/23063/images/109152/109152.970.jpg"
+                     height="100%" width="100%"></image>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Просмотр</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Купить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                 role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image xlink:href="https://sc01.alicdn.com/kf/UT8i6p4XQ8aXXagOFbX8/793957139/UT8i6p4XQ8aXXagOFbX8.jpg"
+                     height="100%" width="100%"></image>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare leo ipsum,
+                pharetra pellentesque neque.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Просмотр</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Купить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                 role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <image xlink:href="http://img04.taobaocdn.com/imgextra/i4/1658336134/T2auzcXx8aXXXXXXXX_!!1658336134.jpg"
+                     height="100%" width="100%"></image>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue mauris ut.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Просмотр</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Купить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block footer %}
+<li class="nav-item"><a href="/" class="nav-link px-2 text-white">Главная</a></li>
+<li class="nav-item"><a href="about" class="nav-link px-2 text-white">О нас</a></li>
+<li class="nav-item"><a href="contacts" class="nav-link px-2 text-white">Контакты</a></li>
+{% endblock %}
